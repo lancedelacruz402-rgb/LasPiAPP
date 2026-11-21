@@ -247,7 +247,7 @@ document.querySelectorAll("#navbar a, [data-page-link]").forEach(function (a) {
 
 $("logoutBtn").addEventListener("click", function () {
     try { localStorage.removeItem(SESSION_KEY); } catch (e) {}
-    window.location.href = "login.html";
+    window.location.href = "index.html";
 });
 
 /* =====================================================
